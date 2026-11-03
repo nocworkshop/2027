@@ -1,0 +1,38 @@
+cff-version: 1.0.0
+message: "If you use these materials, please cite them as below."
+title: "ICRA 2027: The 5th Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence"
+authors:
+  - name: "Jouh Yeong Chew"
+    affiliation: Honda Research Institute Japan
+    email: jouhyeong.chew@jp.honda-ri.com
+
+  - name: "Andreas Bulling"
+    affiliation: University of Stuttgart
+    email: andreas.bulling@vis.uni-stuttgart.de
+
+  - name: "Daisuke Kurabayashi"
+    affiliation: Tokyo Institute of Technology
+    email: kurabayashi.d.aa@m.titech.ac.jp
+
+  - name: "Eiichi Yoshida"
+    affiliation: Tokyo University of Science
+    email: eiichi.yoshida@rs.tus.ac.jp
+
+  - name: "Iolanda Leite"
+    affiliation: KTH Royal Institute of Technology
+    email: iolanda@kth.se
+
+  - name: "Sarah Gillet"
+    affiliation: KTH Royal Institute of Technology
+    email: sgillet@kth.se
+
+  - name: "Siyu Tang"
+    affiliation: ETH Zürich
+    email: siyu.tang@inf.ethz.ch
+
+  - name: "Xucong Zhang"
+    affiliation: TU Delft
+    email: xucong.zhang@tudelft.nl
+
+date-released: 2026-11-03
+repository-code: "https://nocworkshop.github.io/2027/"

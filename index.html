@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ICRA 2027: The 5th Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div id="year-header">
+        <ul>
+            <li><a href="/2024/">IROS 2024</a></li>
+            <li><a href="/2025/">ICRA 2025</a></li>
+            <li><a href="/2026/">RO-MAN 2026</a></li>
+            <li><a href="/2026-IROS/">IROS 2026</a></li>
+            <li><a href="/2027/">ICRA 2027</a></li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+        <a class="navbar-title d-none d-md-block" href="#">
+            <img src="images/logo_top.png" height="60">
+        </a>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#submissions">Call for Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#motivation">Motivation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#organizers">Organizers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="navbar-right-log d-none d-xl-block" href="https://www.jp.honda-ri.com/en/" target="_blank">
+            <img src="images/hrijp_log.png" width="140" height="80">
+        </a>
+    </nav>
+    <div class="container" style="max-width: 960px; margin-top: 120px;">
+        <div class="jumbotron">
+            <h1 class="anchor"><span class="highlight1">The 5th Workshop</span> on Nonverbal Cues for Human-Robot
+                Cooperative
+                Intelligence</h1>
+            <div class="row">
+                <div class="col-lg-6 col-xs-9">
+                    <img src="images/banner_workshop.png" class="d-none d-lg-block"
+                        style="width:95%; margin-top: 20px; margin-left: 20px; max-height: 200px;" alt="banner_1">
+                    <!--img src="images/banner.png" class="d-none d-md-block d-lg-none d-xl-none"
+                        style="margin-left: 20px; width: 95%;"-->
+                    <div class="banner-info  shadow">
+                        <div class="info-entry">
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 8px;">
+                                    <i class="fa fa-location-dot" style="font-size: 2.7rem; margin-top: 10px;"></i>
+                                </div>
+                                <div class="col-md-9" style="margin-top: auto; margin-bottom: auto;">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 info-entry">
+                                <i class="fa fa-calendar">&nbsp;</i>
+                                TBD
+                            </div>
+                            <div class="col-md-6 info-entry">
+                                <i class="fa fa-clock">&nbsp;</i>
+                                TBD
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/banner_art.png" class="d-none d-lg-block" alt="banner_2">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="topics"></a>
+                <h2 class="h1-bullet">About the Workshop</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">
+                <p style="text-indent: 50px;">This workshop is dedicated to discussing computational methods for
+                    sensing and recognition of nonverbal cues and internal states in the wild to realize cooperative
+                    intelligence between humans and
+                    intelligent systems. We gather researchers from different expertise, yet having the common goal,
+                    motivation, and resolve to explore and tackle this delicate issue considering the practicality of
+                    industrial applications. We are calling for papers to discuss novel methods to realize human-robot
+                    cooperative intelligence by sensing and understanding humans’ behavior, internal states, and to
+                    generate
+                    empathetic interactions.
+                </p>
+                <ul class="topic-list">
+                    <li>Human internal state inference, e.g., cognitive, emotional, intention models.</li>
+                    <li>Recognition of nonverbal cues, e.g., gaze and attention, body language, para-language.</li>
+                    <li>Multi-modal sensing fusion for scene perception.</li>
+                    <li>Nonverbal behavior generation for robots/agents, e.g., gaze salience, gesture.</li>
+                    <li>Synchronization of nonverbal and verbal behavior</li>
+                    <li>Learning algorithms, e.g., cross-embodiment and
+                        cross-context
+                        learning, imitation learning.</li>
+                    <li>Generative and adversarial algorithms to enhance human-robot interaction, e.g., LLMs,
+                        diffusion models, VLMs.</li>
+                    <li>Empathetic interaction between humans and intelligent systems.</li>
+                    <li>Robust sensing of facial and body key points.</li>
+                    <li>Modeling of social dynamics, e.g., group harmony, engagement, and cohesion.</li>
+                    <li>Personalization and trust modeling based on multimodal nonverbal cues.</li>
+                    <li>Real-world applications of cooperative intelligence.</li>
+                </ul>
+                <p class="mb-0"><b>Keywords:</b> "Human: Face, gaze, body, pose, gesture, movement, attention,
+                    cognitivestate, emotion state, intention, empathy, Environment: Object"
+                </p>
+                <p class="mb-0"><b>Secondary subject:</b> "Human-Robot cooperative intelligence", "Nonverbal cues
+                    recognition from audiovisual", "Human internal state inference from multi-modality", "Vision
+                    applications and systems", "Human-Object interaction and scene understanding"
+                </p>
+            </div>
+        </div>
+
+        <div class="row mb-4 sponsors-section">
+            <div class="col-xl-3 mb-4">
+                <h2 class="h1-bullet">Sponsors</h2>
+                <img src="images/hrijp_log.png" class="spons-logo">
+                <img src="images/coro_logo.png" class="spons-logo">
+            </div>
+            <div class="col-xl-1 mb-4"></div>
+            <div class="col-xl-8 mb-4">
+                <h2 class="h1-bullet">Organizers</h2>
+                <div class="row">
+                    <img src="images/tu_delf.jpg" class="org-lg-logo">
+                    <img src="images/eth_zurich.png" style="width: 200px !important; margin-top: 35px;"
+                        class="org-lg-logo">
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <img src="images/kth_royal.png" class="org-logo">
+                    <img src="images/u-tokyo_ins.png" class="org-logo">
+                    <img src="images/u-tokyo_sci.png" class="org-logo" style="width: 120px;">
+                    <img src="images/u-stuttgart.png" class="org-logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="news"></a>
+                <h2 class="h1-bullet">News updates</h2>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="news-table">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Nov 3rd</td>
+                            <td>Workshop webpage was launched.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="submissions"></a>
+                <h2 class="h1-bullet">Call for Papers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Submission Guidelines</h4>
+            </div>
+        </div>
+        <div class="col-xs-12 content">
+            <p>We invite authors to submit unpublished papers (2-4 pages excluding references) to our workshop, to be
+                presented at a workshop session upon acceptance.
+                Submissions will undergo a peer-review process by the workshop's program committee and accepted papers
+                will be invited
+                to present their works at the workshop (<a href="#presentation">see presentation format</a>). </p>
+        </div>
+
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col-md-1"></div>
+            <div class="col-md-1 d-none d-md-block">
+                <i class="fa-solid fa-quote-left awards-quote"></i>
+            </div>
+            <div class="col-md-8" style="text-align: center;">
+                <b>We are pleased to announce that award will be given to the best paper accepted by this workshop.</b>
+            </div>
+            <div class="col-md-1 d-none d-md-block">
+                <i class="fa-solid fa-quote-right awards-quote"></i>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Important Dates</h4>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">We are reviewing papers on a rolling basis as they are accepted.
+                <b style="color: red;">The submission deadline for the first batch of papers to be reviewed is
+                    (TBD).</b>
+                <!--ul class="timeline">
+                    <li>
+                        <span class="date-label"><s>Mar 10, 2025</s> &rarr; April 4, 2025</span>
+                        <p>Workshop paper submission deadline</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>Mar 31, 2025</s> &rarr; April 25, 2025</span>
+                        <p>Workshop paper reviews deadline</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>April 10, 2025</s> &rarr; April 25, 2025</span>
+                        <p>Notification to authors</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>April 24, 2025</s> &rarr; May 9, 2025</span>
+                        <p>Camera-ready deadline</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>May 23, 2025</s></span>
+                        <p>Workshop day</p>
+                        <img src="images/2025_workshop_group_photo.jpg" height="500px" />
+                    </li>
+                </ul-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Submission Instructions</h4>
+            </div>
+        </div>
+        <div class="col-xs-12" style="margin-bottom: 20px">
+            Please use the IEEE conferences paper format to write your manuscript.
+            <ul>
+                <li>LaTex and MS Word template: <a target="_blank"
+                        href="https://www.ieee.org/conferences/publishing/templates.html">https://www.ieee.org/conferences/publishing/templates.html</a>
+                </li>
+            </ul>
+            Please submit your paper electronically through the workshop's EasyChair submission system.
+            <ul>
+                <li>Link to EasyChair submission system: <a target="_blank"
+                        href="https://easychair.org/conferences/?conf=tbd">https://easychair.org/conferences/?conf=TBD</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12">
+            <div class="submition-section">
+                <a target="_blank" href="https://easychair.org/conferences/?conf=tbd">Submit papers on
+                    EasyChair</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="presentation"></a>
+                <h4 class="sub-header">Presentation Format</h4>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            Accepted papers should be presented in three-way presentation approach to foster active participation
+            <ul class="topic-list">
+                <li>Spotlight talks (5 mins talk, Q&A in the poster session) </li>
+                <li>In-person A0 posters for in-depth discussions</li>
+                <li>Short pre-recorded videos (about 2 minutes) to be uploaded on the workshop webpage</li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="pub_format"></a>
+                <h4 class="sub-header">Publication Format</h4>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            Authors are recommended to archive their papers and inform workshop organizers once this procedure is
+            completed. Accepted papers which have been archived will be hosted on the workshop webpage. <br>
+            <ul>
+                <li>Link to arXiv: <a href="https://info.arxiv.org/help/submit/index.html" target="_blank">
+                        https://info.arxiv.org/help/submit/index.html</a>
+                </li>
+            </ul>
+            As with the previous IROS2024 workshop, extensions of the papers presented at this ICRA2025 workshop will be
+            invited to submit to a special issue journal to-be-announced at a later date.
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="schedule"></a>
+                <h2 class="h1-bullet">Program</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">
+                <p>We plan a half-day event for 4 hours, including talks by two invited speakers. For participants who
+                    could not attend in person, we will disseminate the papers and pre-recorded videos on our workshop
+                    page, which also consists of a comment section for Q&A.</p>
+                <ul class="schelude">
+                    <li>
+                        <span class="time-bg">08:30</span>
+                        <span class="ribbon">08:35</span>
+                        <span class="schelude-item-content">Welcome and introduction (5mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">08:35</span>
+                        <span class="ribbon">09:05</span>
+                        <span class="schelude-item-content"><a href="#talk1">Invited talk I, including Q&A</a>(30
+                            mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">09:05</span>
+                        <span class="ribbon">09:35</span>
+                        <span class="schelude-item-content"><a href="#talk2"> Invited talk II, including Q&A</a>(30
+                            mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">09:35</span>
+                        <span class="ribbon">10:15</span>
+                        <span class="schelude-item-content"><a href="#flash-talks">Flash talks, up to eight
+                                contributions</a> (total
+                            40mins, about 5mins each)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">10:15</span>
+                        <span class="ribbon">10:45</span>
+                        <span class="schelude-item-content">Coffee break and poster session (30mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">10:45</span>
+                        <span class="ribbon">11:40</span>
+                        <span class="schelude-item-content">Demonstrations and small-group activities (55mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">11:40</span>
+                        <span class="ribbon">12:25</span>
+                        <span class="schelude-item-content"> Group reports and moderated panel discussion
+                            (45mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">12:25</span>
+                        <span class="ribbon">12:30</span>
+                        <span class="schelude-item-content">: Closing remarks (5mins)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="speakers"></a>
+                <h2 class="h1-bullet">Invited Speakers</h2>
+            </div>
+        </div>
+        <div class="row mb-4 speaker-row">
+            <div class="col-xs-12">
+                <p>
+                    We intend to have speakers from different ethnic backgrounds, countries, and career stages.
+                    Specifically, we confirmed the attendance of two speakers.
+                </p>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk1">
+                    <img src="images/speaker_1.jpg" class="img-speaker shadow" alt="no image">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk I</h4>
+                    <h3>Learning Manipulation Skills Through Non-Verbal Interactions</h3>
+                    <div><span>Jens Kober, </span>Professor, University of Stuttgart, Germany</div>
+                    <div>Link to website: <a href="">TBD</a>
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <p>TBD
+                        </p>
+                        <b>Biography</b>
+                        <p>TBD
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk2">
+                    <img src="images/speaker_2.jpg" class="img-speaker shadow" alt="no image">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk II</h4>
+                    <h3>The Human in the Latent Space: Building Interactive World Models for Legible Robot Navigation
+                    </h3>
+                    <div><span>Joanne Taery Kim, </span>Assistant Professor, Yonsei University, South Korea</div>
+                    <div>Link to website: <a href="TBD">TBD</a>
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <p>TBD</p>
+                        <b>Biography</b>
+                        <p>TBD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="flash-talks"></a>
+                <h4 class="sub-header">Flash talks</h4>
+            </div>
+            <div id="flash-talk-1" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:35</span>
+                    <span class="sub-ribbon">09:40</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/01/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/01/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/01/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-2" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:40</span>
+                    <span class="sub-ribbon">09:45</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/02/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/02/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/02/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-3" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:45</span>
+                    <span class="sub-ribbon">09:50</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/03/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/03/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/03/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-4" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:50</span>
+                    <span class="sub-ribbon">09:55</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/04/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/04/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/04/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-5" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:55</span>
+                    <span class="sub-ribbon">10:00</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/05/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/05/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/05/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-6" class="poster">
+                <div>
+                    <span class="sub-time-bg">10:00</span>
+                    <span class="sub-ribbon">10:05</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/06/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/06/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/06/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-7" class="poster">
+                <div>
+                    <span class="sub-time-bg">10:05</span>
+                    <span class="sub-ribbon">10:10</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/07/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/07/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/07/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-8" class="poster">
+                <div>
+                    <span class="sub-time-bg">10:10</span>
+                    <span class="sub-ribbon">10:15</span>
+                </div>
+                <span>TBD</span>
+                <span>TBD</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/08/paper.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/08/video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/08/poster.pdf">poster</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="motivation"></a>
+                <h2 class="h1-bullet">Motivation and Background</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <p style="text-indent: 50px;">Humans can perceive social cues and the interaction context of another
+                    human to infer
+                    the internal states including cognitive and emotional states, empathy, and intention. This
+                    unique ability to infer internal states leads to effective social interaction between humans
+                    desirable in many intelligent systems such as collaborative and social robots, and humanmachine
+                    interaction systems. However, it is challenging for machines to perceive human
+                    states under noisy real-world settings, which are usually measured by noninvasive sensors.
+                    Recent works investigating the potential solutions for the estimation of human states under
+                    controlled
+                    conditions using facial features with the off-the-shelf camera by leveraging
+                    deep learning methods. This workshop aims to bring interdisciplinary researchers across
+                    computer vision, artificial intelligence, robotics, and human-computer interaction together
+                    to share current research achievements and discuss future research directions for human
+                    behavior and state understanding, and their potential application, especially in the wild
+                    environment. Specifically, we are interested in cognition-aware computing by integrating
+                    environment contexts and multi-modal nonverbal social cues not limited to gaze interaction, body
+                    language and para language. More importantly, we extend multi-modal human
+                    behavior research to infer the internal states of humans. This is a challenging problem yet
+                    important to realize effective interaction between humans and intelligent systems. </p>
+
+                <p style="text-indent: 50px;">It is desirable for intelligent systems like robots, virtual agents,
+                    human-machine
+                    interfaces to collaborate and interact seamlessly with humans in the era of Industry 5.0, where
+                    intelligent systems must work alongside humans to perform a variety of tasks anywhere at home,
+                    factories, offices, transit, etc. The underlying technologies to achieve efficient and intelligent
+                    collaboration between humans and ubiquitous intelligent systems can be realized by cooperative
+                    intelligence, spanning interdisciplinary studies between robotics, AI,
+                    human-robot and -computer interaction, computer vision, cognitive science, etc. </p>
+
+                <p style="text-indent: 50px;">One of the main considerations to achieve cooperative intelligence
+                    between humans and
+                    intelligent systems is to enable everyone and everything to know each other well, like how humans
+                    can
+                    trust or infer the implicit internal states like intention, emotion, and cognitive states of each
+                    other.
+                    The importance of empathy to facilitate human-robot interaction has been highlighted in previous
+                    studies
+                    . However, it is difficult for intelligent systems to estimate the internal states of humans
+                    because they are dependent on the complex social dynamics and environment contexts. This requires
+                    intelligent systems to be capable of sensing the multi-modal inputs,
+                    reasoning the underlying abstract knowledge, and generating the corresponding responses to
+                    collaborate
+                    and interact with humans.</p>
+
+                <p style="text-indent: 50px;"> There are many studies on estimating internal states of humans
+                    through measurements of wearables and
+                    non-invasive sensors, but it would be difficult to implement these solutions in the wild because of
+                    the
+                    additional sensors to be worn by humans. One promising solution is to use audiovisual data like
+                    nonverbal behavior cues consisting of gaze interaction, facial expression, body language and
+                    paralanguage to infer the internal states of humans. Researchers in cognitive and social psychology
+                    have
+                    long advocated that these nonverbal behaviors are subconsciously generated by humans and reflect the
+                    internal states of humans under different contexts. Some salient examples are the studies on emotion
+                    recognition using facial and body language in controlled environment. It remains an open question
+                    for
+                    intelligent systems to sense and recognize nonverbal cues and reason the rich underlying internal
+                    states
+                    of humans in the wild and noisy environments. </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="organizers"></a>
+                <h2 class="h1-bullet">Organizers</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Jouh Yeong Chew</h5>
+                    <p class="card-text">Honda Research Institute Japan</p>
+                    <a href="mailto:jouhyeong.chew@jp.honda-ri.com">jouhyeong.chew@jp.honda-ri.com</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Andreas Bulling</h5>
+                    <p class="card-text">University of Stuttgart, Germany</p>
+                    <a href="mailto:andreas.bulling@vis.uni-stuttgart.de">andreas.bulling@vis.uni-stuttgart.de</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Iolanda Leite</h5>
+                    <p class="card-text">KTH Royal Institute of Technology</p>
+                    <a href="mailto:iolanda@kth.se">iolanda@kth.se</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Daisuke Kurabayashi</h5>
+                    <p class="card-text">Tokyo Institute of Technology</p>
+                    <a href="mailto:kurabayashi.d.aa@m.titech.ac.jp">kurabayashi.d.aa@m.titech.ac.jp</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Eiichi Yoshida</h5>
+                    <p class="card-text">Tokyo University of Science</p>
+                    <a href="mailto:eiichi.yoshida@rs.tus.ac.jp">eiichi.yoshida@rs.tus.ac.jp</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Sarah Gillet</h5>
+                    <p class="card-text">KTH Royal Institute of Technology</p>
+                    <a href="mailto:andreas.bulling@vis.uni-stuttgart.de">sgillet@kth.se</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Siyu Tang</h5>
+                    <p class="card-text">ETH Zürich</p>
+                    <a href="mailto:siyu.tang@inf.ethz.ch">siyu.tang@inf.ethz.ch</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Xucong Zhang</h5>
+                    <p class="card-text">TU Delft</p>
+                    <a href="mailto:xucong.zhang@tudelft.nl">xucong.zhang@tudelft.nl</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-8 d-flex align-items-center">
+            <a target="_blank" href="https://www.jp.honda-ri.com/en/"
+                class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="images/logo_hri.png" width="50" height="20">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2026 Honda Research Institute Japan</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
